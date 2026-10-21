@@ -11,7 +11,11 @@ python3 -m http.server 8000
 # 打开 http://localhost:8000
 ```
 
-可直接部署到 GitHub Pages、Cloudflare Pages、Vercel 等任意静态托管。
+## 部署（GitHub Pages）
+
+`.github/workflows/pages.yml` 会在推送到 `ccr-de61d7d3-pc5ebu` 或 `main` 时自动部署。首次使用需在仓库 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**。部署地址为 `https://<用户名>.github.io/shawnTools/`。
+
+也可部署到 Cloudflare Pages、Vercel 等任意静态托管。
 
 ## 配置 `tools.json`
 
