@@ -1,0 +1,18 @@
+{
+  "site": {
+    "title": "个人工具箱",
+    "subtitle": "常用小工具，打开即用",
+    "footer": "纯静态 · 数据不出浏览器"
+  },
+  "tools": [
+    {
+      "name": "音频剪辑",
+      "description": "导入音频，拖选波形片段，试听并导出 WAV，支持淡入淡出。",
+      "url": "tools/audio-cutter/",
+      "icon": "assets/icons/audio-cutter.svg",
+      "color": "#6366f1",
+      "category": "音频",
+      "tags": ["剪辑", "裁剪", "wav", "mp3"]
+    }
+  ]
+}
