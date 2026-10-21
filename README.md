@@ -24,13 +24,13 @@ python3 -m http.server 8000
   },
   "tools": [
     {
-      "name": "音频剪辑",
+      "name": "工具名称",
       "description": "一句话介绍",
-      "url": "tools/audio-cutter/",
-      "icon": "assets/icons/audio-cutter.svg",
+      "url": "tools/my-tool/",
+      "icon": "assets/icons/my-tool.svg",
       "color": "#6366f1",
-      "category": "音频",
-      "tags": ["剪辑", "wav"]
+      "category": "分类",
+      "tags": ["关键词"]
     }
   ]
 }
@@ -64,6 +64,6 @@ python3 -m http.server 8000
 2. 图标放到 `assets/icons/`。
 3. 在 `tools.json` 的 `tools` 数组中加一项。
 
-## 已收录
+## 当前状态
 
-- **音频剪辑** `tools/audio-cutter/`：本地解码音频，拖选波形区间，保留或删除选区，淡入淡出，试听并导出 WAV。文件不会上传。
+`tools.json` 中暂为占位数据（示例工具 A–F，链接为 `#`），用于预览布局与图标效果，之后替换为真实工具。
